@@ -7,7 +7,7 @@ $(document).ready(function(){
          //Math.floor it to get to Array length -1 ie 19
          console.log(currentQuote);
 
-         $('.quoteBody').hide();
+         //$('.quoteBody').hide();
          $('.quoteBodyLink').html(currentQuote.title);
          $('.quoteBodyLink').attr('href', currentQuote.url).attr('target', '_blank');
          $('.quoteAuthor').html(currentQuote.author);
